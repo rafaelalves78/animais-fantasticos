@@ -6,7 +6,7 @@ export default class Modal {
 
     //bind this ao calback para fazer referencia ao objeto da classe
     this.eventToggleModal = this.eventToggleModal.bind(this);
-    this.clickForaModal = this.clickForaModal.bind(this);
+    this.cliqueForaModal = this.cliqueForaModal.bind(this);
   }
 
   //abre ou fecha o modal
